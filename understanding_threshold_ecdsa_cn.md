@@ -79,14 +79,12 @@ DSA over Elliptic Curve Group
 
 形如: 
 
-<img src="https://render.githubusercontent.com/render/math?math=
-y^2 = x^3 %2B ax %2B b "> 
+<img src="https://render.githubusercontent.com/render/math?math=y^2 = x^3 %2B ax %2B b "> 
 
 的平面代数曲线E，
 没有奇异点，即无尖点、自相交，即判别式
 
-<img src="https://render.githubusercontent.com/render/math?math=
-\Delta =-16(4a^{3} %2B 27b^{2})">
+<img src="https://render.githubusercontent.com/render/math?math=\Delta =-16(4a^{3} %2B 27b^{2})">
 
  不等于0。
 
@@ -115,8 +113,7 @@ y^2 = x^3 %2B ax %2B b ">
 
 曲线E
 
-<img src="https://render.githubusercontent.com/render/math?math=
-y^2 = x^3 -x" > 
+<img src="https://render.githubusercontent.com/render/math?math=y^2 = x^3 -x" > 
 
 有限域Fp, p = 89
 ![](asset/Elliptic_curve_on_Z89.png)
@@ -125,8 +122,7 @@ y^2 = x^3 -x" >
 
 曲线E 
 
-<img src="https://render.githubusercontent.com/render/math?math=
-y^2 = x^3 %2B 7 "> 
+<img src="https://render.githubusercontent.com/render/math?math=y^2 = x^3 %2B 7 "> 
 
 有限域Fp, p = 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f = = 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 - 1
 
@@ -152,8 +148,7 @@ n =  0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
 
 r = x1 mod n，若r=0回到上一步
 
-<img src="https://render.githubusercontent.com/render/math?math=
-s=k^{-1}(H(m) %2B xr)\, {\bmod {\, }}n ">
+<img src="https://render.githubusercontent.com/render/math?math=s=k^{-1}(H(m) %2B xr)\, {\bmod {\, }}n ">
 
 签名是(r, s) or (r, -s mod n)
 
@@ -163,14 +158,11 @@ s=k^{-1}(H(m) %2B xr)\, {\bmod {\, }}n ">
 
 验证r, s ∈ {1, 2, .., n-1}
 
-<img src="https://render.githubusercontent.com/render/math?math=
-u_1 = H(m)s^{-1} \bmod n"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=u_1 = H(m)s^{-1} \bmod n"> <br>
 
-<img src="https://render.githubusercontent.com/render/math?math=
-u_2 = rs^{-1} \bmod n"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=u_2 = rs^{-1} \bmod n"> <br>
 
-<img src="https://render.githubusercontent.com/render/math?math=
-(x_1, y_1) = u_1G %2B u_2Q"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=(x_1, y_1) = u_1G %2B u_2Q"> <br>
 
 如果 r= x1 mod n，则签名合法。
 <!-- 
