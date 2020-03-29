@@ -75,13 +75,20 @@ DSA over Elliptic Curve Group
 
 椭圆曲线curve，基点G(生成元)生成一个阶为n的素数群；密码学哈希函数Sha2, Sha3；
 
-椭圆曲线群的构造: 
+椭圆曲线群的构造 
 
-形如 <img src="https://render.githubusercontent.com/render/math?math=
-y^2 = x^3 %2B ax %2B b "> 的平面代数曲线E，
-没有奇异点，即无尖点、自相交，即判别式
+形如: 
+
 <img src="https://render.githubusercontent.com/render/math?math=
-\Delta =-16(4a^{3} %2B 27b^{2})"> 不等于0。
+y^2 = x^3 %2B ax %2B b "> 
+
+的平面代数曲线E，
+没有奇异点，即无尖点、自相交，即判别式
+
+<img src="https://render.githubusercontent.com/render/math?math=
+\Delta =-16(4a^{3} %2B 27b^{2})">
+
+ 不等于0。
 
 定义E上的加法运算：取E上的两点P, Q，若两者相异，P + Q表示穿过P和Q的弦和椭圆曲线相交的第三点，再经x轴反射的镜像点。
 
@@ -106,7 +113,8 @@ y^2 = x^3 %2B ax %2B b "> 的平面代数曲线E，
 
 举例1：
 
-曲线E:
+曲线E
+
 <img src="https://render.githubusercontent.com/render/math?math=
 y^2 = x^3 -x" > 
 
@@ -115,7 +123,8 @@ y^2 = x^3 -x" >
 
 举例2: secp256k1
 
-曲线E: 
+曲线E 
+
 <img src="https://render.githubusercontent.com/render/math?math=
 y^2 = x^3 %2B 7 "> 
 
